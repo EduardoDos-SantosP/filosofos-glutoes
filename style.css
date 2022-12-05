@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 960px;
+}
+i.fas {
+    font-size: 2rem;
+    text-shadow: .2rem .2rem .2rem #0008;
+}
+.row {
+    margin: 2rem 0;
+    justify-content: center;
+}
+div[class*=col] {
+    height: 35px;
+    text-align: center;
+}
+.fa-user-graduate {
+    color: dodgerblue;
+}
+.fa-utensils {
+    color: darkgray;
+}
